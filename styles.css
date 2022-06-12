@@ -2,21 +2,27 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: black;
 }
 
+/* Body */
 body{
     padding: 0;
     margin: 0;
     overflow-x: hidden;
 }
 
+
+
+/* Container principal (guarda todo o conteudo)*/
 .bigcontainer{
     text-align: center;
     margin: 0 auto;
     justify-content: center;
+    background-color: black;
 }
 
+
+/*Alinhamento e configurações do texto superior da tela*/
 .title-container, figcaption{
     text-align: center;
     margin-top: 5%;
@@ -57,6 +63,8 @@ figcaption{
     margin: 5%;
 }
 
+
+/* Modificação da scrollbar */
 /* width */
 ::-webkit-scrollbar {
     width: 8px;
@@ -76,4 +84,64 @@ figcaption{
   ::-webkit-scrollbar-thumb:hover {
     background: #004d40; 
   }
+
+
+  /*Modificação da lista de informações abaixo dos cards*/
+  .container2 ul{
+    background-color: black;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+   li{
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    list-style-type: disc;
+  }
+
+  .container2 h1{
+    padding-top: 5%;
+  }
+
+  .container2 figcaption{
+    background-color: black;
+    margin: 0 auto;
+    padding: 0 0 2% 0;
+  }
+
+  /* Modificação do link de saiba mais */
+  .container2 a{
+    color:#69f0ae
+  }
+
+  .container2 a:active{
+    color:#69f0ae
+  }
+
+  .container2 a:hover{
+    color:#00796b
+  }
+
+nav{
+    width: 100%;
+    background-color: black;
+    height: 15%;
+}
+
+.marker a{
+    color:#69f0ae;
+    text-decoration: none;
+}
+
+.marker a:active{
+    color:#69f0ae
+  }
+
+
+ .marker a:hover{
+    color:#00796b
+  }
+  
+
+  
 
